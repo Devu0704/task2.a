@@ -76,5 +76,11 @@
         <url>https://github.com/Devu0704/jenkins-example.git</url>
     </snapshotRepository>
 </distributionManagement>
-
+<servers>
+        <server>
+            <id>my-internal-nexus-repo</id>
+            <username>yourUserName</username>
+            <password>yourPassword</password>
+        </server>
+</servers>
 </project>
